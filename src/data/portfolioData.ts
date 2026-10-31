@@ -8,7 +8,7 @@ export const portfolioInfo = {
   eyebrow: "PORTFOLIO 2026",
   heroSubtitle: "An aspiring SEO & Digital Marketing Specialist.",
   intro: "Passionate about SEO, digital marketing, website development and creating meaningful digital experiences.",
-  portraitUrl: "/assets/mia-portrait.png",
+  portraitUrl: `${import.meta.env.BASE_URL}assets/mia-portrait.png`,
   idSerial: "BLS-2026-SEO",
   aboutHeading: "A little about",
   aboutSub: "Communication meets technology, with a genuine dedication to search visibility and digital growth.",
