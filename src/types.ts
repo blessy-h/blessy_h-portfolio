@@ -4,7 +4,7 @@ export interface Skill {
   title: string;
   description: string;
   category: 'SEO' | 'Marketing' | 'Development';
-  colorTheme: 'sage' | 'pink' | 'blue' | 'yellow' | 'peach';
+  colorTheme?: 'blush' | 'powder' | 'cream' | 'grey' | 'white';
   tags: string[];
 }
 
@@ -19,7 +19,8 @@ export interface Project {
   technologies: string[];
   liveUrl?: string;
   githubUrl?: string;
-  colorTheme: 'sage' | 'pink' | 'blue' | 'peach';
+  cardTheme: 'blush' | 'powder';
+  imageAlt?: string;
 }
 
 export interface Certification {
@@ -29,7 +30,7 @@ export interface Certification {
   year: string;
   description: string;
   skillsCovered: string[];
-  colorTheme: 'sage' | 'pink' | 'blue' | 'yellow' | 'peach';
+  cardTheme?: 'blush' | 'powder' | 'cream' | 'white';
 }
 
 export interface TimelineItem {

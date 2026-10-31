@@ -24,14 +24,6 @@ export const App: React.FC = () => {
 
   return (
     <div className="portfolio-app">
-      {/* Ambient Pastel Background Glow Layers */}
-      <div className="bg-ambient-layer" aria-hidden="true">
-        <div className="ambient-blob blob-1" />
-        <div className="ambient-blob blob-2" />
-        <div className="ambient-blob blob-3" />
-        <div className="ambient-blob blob-4" />
-      </div>
-
       <Header activeSection={activeSection} />
 
       <main>

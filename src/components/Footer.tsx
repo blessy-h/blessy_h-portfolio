@@ -8,16 +8,18 @@ export const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="footer section-wrap">
-      <a className="brand" href="#home" onClick={scrollToTop}>
-        {portfolioInfo.name}<span>.</span>
-      </a>
+    <div className="footer-wrapper">
+      <footer className="footer section-wrap">
+        <a className="brand" href="#home" onClick={scrollToTop}>
+          {portfolioInfo.name}<span>.</span>
+        </a>
 
-      <span>Made with care &amp; a little creativity ♡</span>
+        <span>Made with care &amp; a little creativity ♡</span>
 
-      <a href="#home" onClick={scrollToTop} className="footer-top-link">
-        Back to top ↑
-      </a>
-    </footer>
+        <a href="#home" onClick={scrollToTop} className="footer-top-link">
+          Back to top ↑
+        </a>
+      </footer>
+    </div>
   );
 };

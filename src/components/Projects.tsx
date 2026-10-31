@@ -9,18 +9,18 @@ interface ProjectCardItemProps {
 
 const ProjectCardItem: React.FC<ProjectCardItemProps> = ({ project }) => {
   const { onMouseMove, onMouseLeave } = useTilt({
-    maxRotation: 6,
-    perspective: 1000,
+    maxRotation: 4.5,
+    perspective: 1200,
     scale: 1.015,
     glowColor:
-      project.type === 'restaurant'
-        ? 'rgba(168, 191, 163, 0.45)'
-        : 'rgba(184, 216, 240, 0.45)',
+      project.cardTheme === 'blush'
+        ? 'rgba(245, 234, 234, 0.7)'
+        : 'rgba(220, 234, 240, 0.7)',
   });
 
   return (
     <article
-      className="project-card"
+      className={`project-card card-${project.cardTheme}`}
       onMouseMove={onMouseMove}
       onMouseLeave={onMouseLeave}
     >
@@ -102,28 +102,30 @@ const ProjectCardItem: React.FC<ProjectCardItemProps> = ({ project }) => {
 
 export const Projects: React.FC = () => {
   return (
-    <section className="section section-wrap projects" id="projects">
-      <div className="section-label">03 / SELECTED WORK</div>
-      <div className="section-heading">
-        <h2>
-          Things I've <em>worked on.</em>
-        </h2>
-        <p>
-          Practical projects reflecting hands-on SEO implementations, keyword targeting, and
-          responsive website development.
+    <div className="projects-wrapper" id="projects">
+      <section className="section section-wrap">
+        <div className="section-label">03 / SELECTED WORK</div>
+        <div className="section-heading">
+          <h2>
+            Things I've <em>worked on.</em>
+          </h2>
+          <p>
+            Practical projects reflecting hands-on SEO implementations, keyword targeting, and
+            responsive website development.
+          </p>
+        </div>
+
+        <div className="project-grid">
+          {projectsData.map((project) => (
+            <ProjectCardItem key={project.id} project={project} />
+          ))}
+        </div>
+
+        <p className="project-footnote">
+          Projects are hosted live on GitHub Pages. Click <strong>Live Website ↗</strong> to explore
+          the interactive builds.
         </p>
-      </div>
-
-      <div className="project-grid">
-        {projectsData.map((project) => (
-          <ProjectCardItem key={project.id} project={project} />
-        ))}
-      </div>
-
-      <p className="project-footnote">
-        Projects are hosted live on GitHub Pages. Click <strong>Live Website ↗</strong> to explore
-        the interactive builds.
-      </p>
-    </section>
+      </section>
+    </div>
   );
 };

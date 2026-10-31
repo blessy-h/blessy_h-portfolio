@@ -4,11 +4,12 @@ export const portfolioInfo = {
   name: "Blessy",
   surname: "H",
   fullName: "Blessy H",
-  tagline: "SEO & Digital Marketing Fresher",
-  eyebrow: "DIGITAL MARKETING · SEO · WEB",
-  intro: "A curious fresher with a background in English and technology, excited to create meaningful digital experiences and help brands grow online through clean SEO practices, technical understanding, and creative digital marketing.",
+  tagline: "An aspiring SEO & Digital Marketing Specialist",
+  eyebrow: "PORTFOLIO 2026",
+  heroSubtitle: "An aspiring SEO & Digital Marketing Specialist.",
+  intro: "Passionate about SEO, digital marketing, website development and creating meaningful digital experiences.",
   portraitUrl: "/assets/mia-portrait.png",
-  trophyUrl: "/assets/trophy-100.png",
+  idSerial: "BLS-2026-SEO",
   aboutHeading: "A little about",
   aboutSub: "Communication meets technology, with a genuine dedication to search visibility and digital growth.",
   aboutParagraphs: [
@@ -39,7 +40,6 @@ export const skillsData: Skill[] = [
     title: "Search Engine Optimization (SEO)",
     description: "Holistic understanding of search engines, crawling, indexing, search intent, and ranking signals for organic growth.",
     category: "SEO",
-    colorTheme: "sage",
     tags: ["Search Visibility", "SERP", "Organic Traffic", "Ranking Factors"]
   },
   {
@@ -48,8 +48,7 @@ export const skillsData: Skill[] = [
     title: "Keyword Research",
     description: "Identifying high-relevance search terms, search volume, competitor keyword gaps, user search intent, and long-tail opportunities.",
     category: "SEO",
-    colorTheme: "pink",
-    tags: ["Search Intent", "Long-Tail Keywords", "Competitor Analysis", "Search Volume"]
+    tags: ["Search Intent", "Long-Tail Keywords", "Competitor Gaps", "Search Volume"]
   },
   {
     id: "on-page-seo",
@@ -57,8 +56,7 @@ export const skillsData: Skill[] = [
     title: "On-Page SEO",
     description: "Optimizing title tags, meta descriptions, header hierarchy (H1-H6), URL structure, image alt text, and keyword placement.",
     category: "SEO",
-    colorTheme: "blue",
-    tags: ["Title Tags", "Meta Descriptions", "Content Structuring", "Image Alt Text"]
+    tags: ["Title Tags", "Meta Descriptions", "Content Structure", "Image Alt Text"]
   },
   {
     id: "technical-seo",
@@ -66,8 +64,7 @@ export const skillsData: Skill[] = [
     title: "Technical SEO",
     description: "Ensuring search engine bots can easily crawl and index content through clean XML sitemaps, robots.txt, canonicals, and speed checks.",
     category: "SEO",
-    colorTheme: "peach",
-    tags: ["XML Sitemaps", "Robots.txt", "Canonical Tags", "Crawlability", "Clean URLs"]
+    tags: ["XML Sitemaps", "Robots.txt", "Canonical Tags", "Crawl Health", "Clean URLs"]
   },
   {
     id: "digital-marketing",
@@ -75,7 +72,6 @@ export const skillsData: Skill[] = [
     title: "Digital Marketing",
     description: "Digital content fundamentals, audience engagement, conversion funnels, brand visibility, and organic social marketing basics.",
     category: "Marketing",
-    colorTheme: "yellow",
     tags: ["Audience Growth", "Brand Visibility", "Content Strategy", "Digital Channels"]
   },
   {
@@ -84,8 +80,7 @@ export const skillsData: Skill[] = [
     title: "HTML",
     description: "Semantic HTML5 markup ensuring accessible, well-structured pages that search engine crawlers can seamlessly parse and index.",
     category: "Development",
-    colorTheme: "peach",
-    tags: ["HTML5", "Semantic Tags", "Document Hierarchy", "Accessibility"]
+    tags: ["HTML5", "Semantic Markup", "Document Structure", "Accessibility"]
   },
   {
     id: "css",
@@ -93,7 +88,6 @@ export const skillsData: Skill[] = [
     title: "CSS",
     description: "Styling responsive, mobile-first layouts with Flexbox, CSS Grid, media queries, smooth animations, and clean visual aesthetics.",
     category: "Development",
-    colorTheme: "blue",
     tags: ["CSS3", "Responsive Design", "Flexbox & Grid", "Mobile Optimization"]
   },
   {
@@ -102,7 +96,6 @@ export const skillsData: Skill[] = [
     title: "JavaScript",
     description: "Foundational interactive scripting, DOM manipulation, event listeners, dynamic UI behaviors, and client-side logic.",
     category: "Development",
-    colorTheme: "yellow",
     tags: ["ES6+", "DOM Manipulation", "Event Listeners", "Interactive UI"]
   },
   {
@@ -111,7 +104,6 @@ export const skillsData: Skill[] = [
     title: "Python",
     description: "Python Full Stack foundations covering data structures, backend logic, script automation, and analytical problem-solving.",
     category: "Development",
-    colorTheme: "sage",
     tags: ["Full Stack Basics", "Data Structures", "Automation", "Logic"]
   }
 ];
@@ -120,7 +112,7 @@ export const projectsData: Project[] = [
   {
     id: "gfc",
     type: "restaurant",
-    badge: "LIVE CLIENT CONCEPT · LOCAL BUSINESS SEO",
+    badge: "FEATURED PROJECT · LOCAL BUSINESS SEO",
     title: "GFC Restaurant Website",
     subtitle: "GRAND FESTIVE CAFE · UDAYAR VILAI",
     description: "A complete website concept designed for Grand Festive Cafe in Udayar Vilai, Kanyakumari. Built to showcase the cafe atmosphere, dynamic menu items, operating hours, and physical location to boost local customer visits.",
@@ -134,7 +126,8 @@ export const projectsData: Project[] = [
     technologies: ["HTML5", "CSS3", "JavaScript", "Local SEO", "Mobile-First Design"],
     liveUrl: "https://blessy-h.github.io/GFC/",
     githubUrl: "https://github.com/blessy-h/GFC",
-    colorTheme: "sage"
+    cardTheme: "blush",
+    imageAlt: "Grand Festive Cafe Website Concept Preview"
   },
   {
     id: "seo-practice",
@@ -153,7 +146,8 @@ export const projectsData: Project[] = [
     technologies: ["Technical SEO", "Keyword Research", "On-Page SEO", "Sitemap Architecture", "Robots.txt"],
     liveUrl: "https://blessy-h.github.io/blessy_h-portfolio/",
     githubUrl: "https://github.com/blessy-h/blessy_h-portfolio",
-    colorTheme: "blue"
+    cardTheme: "powder",
+    imageAlt: "SEO Optimization and Technical Audit Architecture Preview"
   }
 ];
 
@@ -165,7 +159,7 @@ export const certificationsData: Certification[] = [
     year: "Completed",
     description: "Comprehensive training in modern digital marketing practices, with an intensive focus on Search Engine Optimization.",
     skillsCovered: ["Keyword Research", "On-Page SEO", "Off-Page Link Building", "Technical Auditing", "Analytics"],
-    colorTheme: "sage"
+    cardTheme: "white"
   },
   {
     id: "cert-python",
@@ -174,7 +168,7 @@ export const certificationsData: Certification[] = [
     year: "Completed",
     description: "Hands-on curriculum bridging frontend web technologies (HTML, CSS, JavaScript) and backend Python architectures.",
     skillsCovered: ["Python Fundamentals", "Web Development", "Database Basics", "Full Stack Architecture"],
-    colorTheme: "pink"
+    cardTheme: "white"
   },
   {
     id: "cert-degree",
@@ -183,7 +177,7 @@ export const certificationsData: Certification[] = [
     year: "2024",
     description: "Graduated with strong foundations in literary analysis, persuasive communication, and precision written English—essential for authoritative SEO content.",
     skillsCovered: ["Copywriting", "Audience Empathy", "Analytical Communication", "Research Skills"],
-    colorTheme: "blue"
+    cardTheme: "white"
   }
 ];
 

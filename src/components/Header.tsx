@@ -28,7 +28,12 @@ export const Header: React.FC<HeaderProps> = ({ activeSection }) => {
 
   return (
     <header className="site-header">
-      <a className="brand" href="#home" onClick={closeNav} aria-label={`${portfolioInfo.name} Portfolio Home`}>
+      <a
+        className="brand"
+        href="#home"
+        onClick={closeNav}
+        aria-label={`${portfolioInfo.name} Portfolio`}
+      >
         {portfolioInfo.name}<span>.</span>
       </a>
 
@@ -56,7 +61,7 @@ export const Header: React.FC<HeaderProps> = ({ activeSection }) => {
       </nav>
 
       <div className="header-actions">
-        <a className="resume-link" href="#contact" onClick={closeNav}>
+        <a className="header-cta" href="#contact" onClick={closeNav}>
           Let's connect <span>↗</span>
         </a>
       </div>

@@ -1,29 +1,38 @@
 # Blessy — SEO & Digital Marketing Portfolio
 
-Premium, modern, interactive personal portfolio website built with React, TypeScript, and Vite, featuring a six-colour pastel design system, smooth 3D mouse-following cards, subtle floating effects, and full responsive design.
+A premium, editorial personal portfolio website built with React, TypeScript, and Vite. Designed with an editorial layout featuring a realistic hanging floating profile ID card, minimal navigation, generous whitespace, and a pastel palette: Cream White, Pure White, Blush Pink, Powder Blue, Light Grey, and Charcoal.
 
 ## Live Links
 - **Portfolio Website**: [https://blessy-h.github.io/blessy_h-portfolio/](https://blessy-h.github.io/blessy_h-portfolio/)
 - **Featured Project - GFC Restaurant**: [https://blessy-h.github.io/GFC/](https://blessy-h.github.io/GFC/)
 - **GitHub Profile**: [https://github.com/blessy-h](https://github.com/blessy-h)
 
-## 6-Colour Pastel Identity
-- **Cream White** (`#FFF9F0`): Primary canvas background.
-- **Sage Green** (`#A8BFA3`): Primary headings, brand marks, and key accents.
-- **Pastel Pink** (`#F4C6D7`): Subtle card glow, highlight badges, and decorative accents.
-- **Baby Blue** (`#B8D8F0`): Atmospheric gradient blobs, tech badges, and secondary cards.
-- **Butter Yellow** (`#F8E7A2`): Sunny achievement badges, starbursts, and interactive highlights.
-- **Soft Peach** (`#F6C6AD`): Warm card accents and gradient transitions.
+## Hero Section
+- **Editorial Introduction (Left Column)**:
+  - Label: `PORTFOLIO 2026`
+  - Main Title: `Hello, I'm Blessy.`
+  - Italic Headline: `An aspiring SEO & Digital Marketing Specialist.`
+  - Description: *"Passionate about SEO, digital marketing, website development and creating meaningful digital experiences."*
+  - Dual CTAs: **VIEW MY PROJECTS** (`#projects`) and **ABOUT ME** (`#about`).
+- **Hanging Profile ID Card (Right Column)**:
+  - Suspended by a realistic lanyard strap and metallic hardware clip.
+  - Realistic punch-hole slot, security pass header, profile portrait, role title, serial number, and SVG QR code element.
+  - Subtle floating sway animation combined with interactive mouse-following 3D perspective tilt.
 
-## Key Features
-- **3D Mouse-Following Tilt**: Project, skill, and certification cards smoothly follow cursor motion with perspective depth and pastel glow, reverting seamlessly on mouse leave.
-- **Hero Showcase**: Professional title "SEO & Digital Marketing Fresher", animated CTA buttons (*View My Projects* & *Contact Me*), and floating pastel shapes.
-- **Selected Work**: Featured *GFC Restaurant Website* with SEO work breakdown and live external link.
-- **Skills Grid**: 9 focused skills across SEO, Marketing, and Web Development with category filtering.
-- **Certifications**: Dedicated credentials section for SEO training, Full Stack Development, and academic degree.
-- **Education Timeline**: Milestones highlighting language communication foundations and technical development.
-- **Direct Contact**: Click-to-copy email helper (`blessyh07@gmail.com`) and interactive quick inquiry composer.
-- **Accessibility**: Full `prefers-reduced-motion` support, high text contrast, and touch-optimized controls for mobile devices.
+## Clean Professional Icons
+- **Trophy & gaming icons completely removed**:
+  - `SearchCheck` for SEO.
+  - `ChartNoAxesCombined` for digital analytics.
+  - `Target` for digital marketing strategy.
+  - `Monitor` for web development.
+
+## Palette
+- **Cream White** (`#F8F6F3`): Main website & hero background.
+- **Pure White** (`#FFFFFF`): Profile ID card, skills/certifications cards, contact card.
+- **Blush Pink** (`#F5EAEA`): Hero decorative circles, project card 1 (GFC Restaurant).
+- **Powder Blue** (`#DCEAF0`): Contact section, hero decorative circle, project card 2 (SEO Practice).
+- **Light Grey** (`#E8E7E7`): Skills section background and subtle borders.
+- **Charcoal** (`#333333`): Editorial headings and primary buttons.
 
 ## Running Locally
 
